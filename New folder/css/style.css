@@ -1,0 +1,44 @@
+*{
+    /* background-color: blanchedalmond; */
+    padding: 0;
+    margin: 0;
+    font-family: cursive, sans-serif;
+    box-sizing: border-box;
+    pointer-events: initial;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, #17f0f0, #f0e556);
+    height: 100vh;
+}
+h1{
+    text-align: center;
+
+}
+div .fullname{
+    text-align: center;
+    position: relative;
+    justify-content: center
+}
+.banner,
+.my-works,
+.pricing,
+.testimonials {
+  background-color: #eae7dc;
+}
+
+.my-clients .card,
+.my-contacts .card {
+  background-color: #eae7dc;
+  border: none;
+}
+
+.my-contacts a {
+  text-decoration: none;
+}
+
+.what-i-do h4 {
+  font-weight: 600;
+}
+

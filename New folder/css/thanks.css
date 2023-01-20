@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: blanchedalmond;
+}
+.banner,
+.my-works,
+.pricing,
+.testimonials {
+  background-color: #eae7dc;
+}
+
+.my-clients .card,
+.my-contacts .card {
+  background-color: #eae7dc;
+  border: none;
+}
+
+.my-contacts a {
+  text-decoration: none;
+}
+
+.what-i-do h4 {
+  font-weight: 600;
+}
+
+.navigation {
+    z-index: 1000;
+    width: 100%;
+    position: relative;
+    min-height: 60px;
+  }
+  
+  #navbarNav {
+    justify-content: flex-end;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #2299aa !important;
+    font-size: 2rem;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #333333;
+    font-weight: 600;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
